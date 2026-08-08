@@ -1,5 +1,5 @@
 variable "mylist" {  
-    type = list
+    type = list(number)
 }
 
 output "mylist" {
